@@ -10,6 +10,7 @@
 void show_info(struct utmp *utmpfd);
 
 void showtime(long timeval);
+
 int main()
 {
     struct utmp current_record;
